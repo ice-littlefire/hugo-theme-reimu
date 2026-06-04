@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DART_SASS_VERSION: 1.99.0
-      GO_VERSION: 1.26.x
+      GO_VERSION: 1.24.x
       HUGO_VERSION: 0.160.0
       NODE_VERSION: 24.x
       REIMU_VERSION: v0.16.0
