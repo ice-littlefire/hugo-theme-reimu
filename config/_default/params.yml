@@ -1,0 +1,139 @@
+menu:
+  - name: home
+    url: ""
+    icon:
+  - name: archives
+    url: "archives"
+    icon:
+  - name: about
+    url: "about"
+    icon:
+  - name: friend
+    url: "friend"
+    icon:
+
+mainSections:
+  - post
+
+yearFormat: "2006"
+monthFormat: "2006-01"
+dateFormat: "2006-01-02"
+timeFormat: "2006-01-02 15:04:05"
+
+author: "你的名字"
+email: "you@example.com"
+description: "记录技术、生活和正在发生的灵感。"
+subtitle:
+  typing:
+    enable: false
+  text: "记录技术、生活和正在发生的灵感。"
+
+banner: "images/banner.webp"
+avatar: "avatar.webp"
+toc: true
+excerpt_link: "阅读全文"
+
+footer:
+  since: 2026
+  powered: true
+  count: true
+  busuanzi: false
+
+sidebar:
+  position: right
+  menu: true
+  article:
+    show_common: true
+
+social:
+  github: https://github.com/ice-littlefire
+
+widgets:
+  - category
+  - tag
+  - tagcloud
+  - recent_posts
+
+category_limits: 10
+tag_limits: 10
+recent_posts_limits: 5
+tagcloud_limits: 20
+
+summary:
+  enable: false
+  style: "subtitle"
+
+rss:
+  limit: 10
+  showFullContent: false
+  showCopyright: false
+
+dark_mode:
+  enable: auto
+
+comment:
+  default: waline
+
+valine:
+  enable: false
+
+waline:
+  enable: false
+
+twikoo:
+  enable: false
+
+gitalk:
+  enable: false
+
+giscus:
+  enable: false
+
+disqus:
+  enable: false
+
+utterances:
+  enable: false
+
+beaudar:
+  enable: false
+
+algolia_search:
+  enable: false
+
+preloader:
+  enable: true
+
+animation:
+  enable: true
+
+firework:
+  enable: true
+  disable_on_mobile: true
+
+reimu_cursor:
+  enable: true
+
+article_copyright:
+  enable: false
+
+outdate:
+  enable: false
+
+pjax:
+  enable: false
+
+service_worker:
+  enable: false
+
+live2d:
+  enable: false
+
+live2d_widgets:
+  enable: false
+
+aplayer:
+  enable: false
+
+meting:
+  enable: false
