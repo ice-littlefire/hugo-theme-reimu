@@ -20,7 +20,7 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: "你的名字"
+author: "ice-littlefire"
 email: "you@example.com"
 description: "记录技术、生活和正在发生的灵感。"
 subtitle:
@@ -29,7 +29,7 @@ subtitle:
   text: "记录技术、生活和正在发生的灵感。"
 
 banner: "images/banner.webp"
-avatar: "avatar.webp"
+avatar: "avatar.png"
 toc: true
 excerpt_link: "阅读全文"
 
