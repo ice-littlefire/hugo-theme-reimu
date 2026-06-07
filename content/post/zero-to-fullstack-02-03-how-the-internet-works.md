@@ -14,6 +14,8 @@ tags:
 cover: https://images.unsplash.com/photo-1451187580459-43490279c0fa
 banner: https://images.unsplash.com/photo-1558494949-ef010cbdcc31
 toc: true
+aliases:
+  - /post/how-the-internet-works_1/
 ---
 
 本节从“本地 HTML 文件”过渡到“互联网上的网站”，讲清楚浏览器访问网页时背后的基本链路：先通过 DNS 找到域名对应的 IP，再根据 HTTP/HTTPS 访问默认端口 80/443，最后把服务器返回的 HTML 渲染成页面。
@@ -141,3 +143,9 @@ IP 用来找到“哪一台机器”，端口用来找到“这台机器上的�
 - [15:15-16:45] 总结互联网访问链路中各个关键概念的连接关系
 - [16:45-18:17] 按访问流程串起“域名 - DNS - IP - 端口 - 返回 HTML - 渲染”
 - [18:17-19:49] 回到整节课的核心认知：网站访问其实是一条清晰的通信链路
+
+## 来源
+
+本文是观看 B 站课程《零到全栈》后整理的学习笔记，内容基于个人理解重新梳理，主要用于学习记录。
+
+原视频：[【零到全栈】2.3-互联网是怎么工作的](https://www.bilibili.com/video/BV1RA556qESY)
