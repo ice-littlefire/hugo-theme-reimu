@@ -1,14 +1,14 @@
 menu:
-  - name: 首页
+  - name: home
     url: ""
     icon:
-  - name: 归档
+  - name: archives
     url: "archives"
     icon:
-  - name: 关于
+  - name: about
     url: "about"
     icon:
-  - name: 链接
+  - name: friend
     url: "friend"
     icon:
 
@@ -21,14 +21,14 @@ dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
 author: "ice-littlefire"
-email: ""
-description: "把视频课、项目实践和踩坑记录整理成能回头复习的笔记。"
+email: "you@example.com"
+description: "记录技术、生活和正在发生的灵感。"
 subtitle:
   typing:
     enable: false
-  text: "把学过的东西整理清楚，也把做过的东西留下痕迹。"
+  text: "记录技术、生活和正在发生的灵感。"
 
-banner: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+banner: "images/banner.webp"
 avatar: "avatar.webp"
 toc: true
 excerpt_link: "阅读全文"

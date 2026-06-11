@@ -1,15 +1,6 @@
 -
-  name: ice-littlefire
-  url: https://github.com/ice-littlefire
-  description: 我的 GitHub 主页，博客源码和练习项目会放在这里。
-  avatar: https://github.githubassets.com/favicons/favicon.svg
--
   name: Hugo
   url: https://gohugo.io/
-  description: 这个博客使用的静态网站生成器。
+  description: The world's fastest framework for building websites.
   avatar: https://gohugo.io/favicon.ico
--
-  name: Reimu
-  url: https://github.com/D-Sketon/hugo-theme-reimu
-  description: 当前博客使用的 Hugo 主题。
-  avatar: https://github.githubassets.com/favicons/favicon.svg
+
