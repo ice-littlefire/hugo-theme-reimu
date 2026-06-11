@@ -1,6 +1,8 @@
-# Hugo + GitHub Pages 博客
+# ice-littlefire 的学习笔记
 
-这个仓库已经配置为使用 Hugo 和 Reimu 主题部署到 GitHub Pages。
+这个仓库是我的个人学习博客，使用 Hugo 和 Reimu 主题，并通过 GitHub Actions 自动部署到 GitHub Pages。
+
+线上地址：<https://ice-littlefire.github.io/hugo-theme-reimu/>
 
 ## 发布步骤
 
@@ -35,10 +37,29 @@ hugo server -D
 
 ## 写文章
 
-文章放在 `content/post/`。新文章示例：
+文章放在 `content/post/`。建议按“系列或主题 + 编号 + 简短英文标题”的方式命名，后面文章多了也容易查找。
+
+示例：
+
+```text
+zero-to-fullstack-02-03-how-the-internet-works.md
+codex-bilibili-auto-notes-tool.md
+```
+
+新文章可以手动创建 Markdown 文件，也可以使用 Hugo 命令：
 
 ```powershell
 hugo new content post/my-post.md
 ```
 
 把文章 Front Matter 里的 `draft` 改成 `false` 后才会发布。
+
+如果某一类文章越来越多，可以再按文件夹整理，例如：
+
+```text
+content/post/zero-to-fullstack/
+content/post/projects/
+content/post/notes/
+```
+
+不过文章数量少的时候，先放在 `content/post/` 下更简单。
